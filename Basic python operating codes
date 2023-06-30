@@ -1,0 +1,40 @@
+(1)
+#Write a python program to perform all arithmetic operations (Give Numbers Directly)
+#A. Add Two Numbers
+#B. Difference of Two Numbers
+#C. Product of Two Numbers
+#D. Quotient of Two Numbers
+#E. Remainder of Two Numbers
+#F. Exponent of a number
+x= int(input())
+y= int (input())
+print(x+y)
+print(x-y)
+print(x*y)
+print(x/y)
+print(x%y)
+print(x**y)
+
+(2)
+#Write a Python Program to calculate Simple Interest
+n= int(input())
+p= float(input())
+r= int(input())
+print(n*p*r/100)
+
+(3)
+#An employee’s total weekly pay equals the hourly wage multiplied by the total number of regular hours plus any overtime pay. Overtime pay equals the total overtime hours multiplied by 1.5 times the hourly wage. Write a program that takes as inputs the hourly wage, total regular hours, and total overtime hours and displays overtime pay and an employee’s total weekly pay.
+x= int(input())
+y= int(input())
+z= int(input())
+print(int(x*z*1.5))
+print(int((x*y)+z*(x*1.5)))
+
+(4)
+#Write a python program to print the following pattern without using Loop
+#*
+#*  *
+#*  *  *
+print("*")
+print("*  *")
+print("*  *  *")
